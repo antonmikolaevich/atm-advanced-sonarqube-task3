@@ -37,7 +37,7 @@ let data = {
   },
   "filters": [
     {
-      "value": "42",
+      "value": "41",
       "name": "test-filter"
     }
   ],
@@ -45,7 +45,7 @@ let data = {
   "description": "",
   "share": true,
   "filterIds": [
-    "42"
+    "41"
   ]
 }
 
@@ -58,28 +58,36 @@ let incorrectData = {
       "statistics$executions$failed",
       "statistics$executions$skipped",
       "statistics$defects$product_bug$pb001",
+      "statistics$defects$product_bug$pb_1iv3u3t04zkfn",
+      "statistics$defects$product_bug$pb_rhod1iz2r5tf",
+      "statistics$defects$product_bug$pb_qxqkluzbfcqb",
+      "statistics$defects$product_bug$pb_1jetb5h08jho2",
+      "statistics$defects$product_bug$pb_qhqm7ju22rso",
       "statistics$defects$automation_bug$ab001",
+      "statistics$defects$automation_bug$ab_vb42ygw94yt1",
       "statistics$defects$system_issue$si001",
-      "statistics$defects$no_defect$nd001",
+      "statistics$defects$no_defect$nd001", 
+      "statistics$defects$no_defect$nd_u8570yt8djy1",
+      "statistics$defects$no_defect$nd_t8cdzpk55s1e",
       "statistics$defects$to_investigate$ti001"
     ],
     "itemsCount": "50",
     "widgetOptions": {
-      "zoom": false,
-      "timeline": "launch",
-      "viewMode": "area-spline"
+      "latest": false,
+      "viewMode": "panel"
     }
   },
   "filters": [
     {
-      "value": "45",
-      "name": "DEMO_FILTER"
+      "value": "41",
+      "name": "test-filter"
     }
   ],
+  "name": `${Math.floor(Math.random() * 1000001)}`,
   "description": "",
   "share": true,
   "filterIds": [
-    "45"
+    "41"
   ]
 }
 
@@ -114,7 +122,7 @@ let incorrectData = {
     },
     "filters": [
       {
-        "value": "42",
+        "value": "41",
         "name": "test-filter"
       }
     ],
@@ -122,7 +130,7 @@ let incorrectData = {
     "description": "",
     "share": true,
     "filterIds": [
-      "42"
+      "41"
     ]
   }
 
