@@ -12,7 +12,6 @@ pipeline {//for jenkins -docker integration build image for the beginning
         steps {
             script {
             bat "docker run -v %cd%\\reporterDocker:/api-project/reporterDocker jenkinsdocker01"
-            junit (allowEmptyResults: true, testResults: 'reporterDocker/fileReportJenkinsDocker.xml')
         }
         }
     }
