@@ -14,7 +14,7 @@
       "eslint . --fix --color"
     ]
   },
-  "author": "Anton_Rak",
+  "author": "Anton.Rak",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.1.2",
