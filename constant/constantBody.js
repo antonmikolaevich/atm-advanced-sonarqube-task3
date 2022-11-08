@@ -37,7 +37,7 @@ let data = {
   },
   "filters": [
     {
-      "value": "41",
+      "value": "30",
       "name": "test-filter"
     }
   ],
@@ -45,7 +45,7 @@ let data = {
   "description": "",
   "share": true,
   "filterIds": [
-    "41"
+    "30"
   ]
 }
 
@@ -79,7 +79,7 @@ let incorrectData = {
   },
   "filters": [
     {
-      "value": "41",
+      "value": "30",
       "name": "test-filter"
     }
   ],
@@ -87,7 +87,7 @@ let incorrectData = {
   "description": "",
   "share": true,
   "filterIds": [
-    "41"
+    "30"
   ]
 }
 
@@ -122,7 +122,7 @@ let incorrectData = {
     },
     "filters": [
       {
-        "value": "41",
+        "value": "30",
         "name": "test-filter"
       }
     ],
@@ -130,7 +130,7 @@ let incorrectData = {
     "description": "",
     "share": true,
     "filterIds": [
-      "41"
+      "30"
     ]
   }
 
